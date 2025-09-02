@@ -15,7 +15,7 @@ This project is currently a test implementation and will be converted into a lib
 
 ### Prerequisites
 
-*   Rust 1.79 or later
+*   Rust 1.28 or later
 *   Linux
 
 ### Installation
