@@ -27,6 +27,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6a82ae493e598baaea5209805c49bbf2ea7de956d50d7da0da1164f9c6d28543"
 
 [[package]]
+name = "linux-futex"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "222e5374b2d82313ab4d592bf28d075bd31db6593eab2f714bf13d23c4f0bc9d"
+dependencies = [
+ "libc",
+]
+
+[[package]]
 name = "memmap2"
 version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -51,7 +60,7 @@ dependencies = [
 name = "shmrb-rs"
 version = "0.1.0"
 dependencies = [
- "libc",
+ "linux-futex",
  "memmap2",
  "nix",
 ]
