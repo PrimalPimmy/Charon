@@ -1,4 +1,4 @@
-# Shared Memory Buffer (shmrb-rs)
+# Shared Memory Buffer (charon)
 
 [![Rust](httpshttps://img.shields.io/badge/rust-1.79-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -22,11 +22,11 @@ This project is currently a test implementation and will be converted into a lib
 
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/primalpimmy/shmrb-rs.git
+    git clone https://github.com/primalpimmy/charon.git
     ```
 2.  Build the project:
     ```bash
-    cd shmrb-rs
+    cd charon
     cargo build --release
     ```
 
