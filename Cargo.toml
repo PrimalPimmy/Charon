@@ -3,6 +3,10 @@ name = "charon"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "charon"
+path = "src/lib.rs"
+
 [dependencies]
 memmap2 = "0.9.4"
 linux-futex = "0.2.0"
