@@ -1,6 +1,5 @@
 # Shared Memory Buffer (charon)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+   
 [![Build Status](https://travis-ci.org/primalpimmy/shmrb-rs.svg?branch=main)](https://travis-ci.org/primalpimmy/shmrb-rs)
 
 A Rust implementation of a Shared Memory Buffer for efficient inter-process communication on Linux.
