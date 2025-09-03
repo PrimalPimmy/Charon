@@ -1,6 +1,5 @@
 # Shared Memory Buffer (charon)
 
-[![Rust](httpshttps://img.shields.io/badge/rust-1.79-orange.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/primalpimmy/shmrb-rs.svg?branch=main)](https://travis-ci.org/primalpimmy/shmrb-rs)
 
